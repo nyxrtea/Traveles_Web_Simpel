@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveles - Traveling Simpel Anti Ribet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-blue-900 bg-gradient-to-b from-blue-50 to-green-50">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 border-b bg-white shadow-sm">
+        <div class="text-xl font-bold text-teal-600">Traveles</div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:underline text-teal-600">Home</a></li>
+                <li><a href="#" class="hover:underline text-teal-600">Our Package</a></li>
+                <li><a href="#" class="hover:underline text-teal-600">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section --> 
+    <main class="max-w-6xl mx-auto p-6 flex flex-col md:flex-row gap-6">
+        <!-- Left Side -->
+        <div class="md:w-2/3">
+            <h1 class="text-3xl font-bold mb-2 text-blue-800">Traveling Simpel Anti Ribet</h1>
+            <p class="text-blue-600 mb-6">Liburan Ga Perlu Mahal</p>
+            <div class="bg-gradient-to-r from-blue-100 to-teal-100 h-48 flex items-center justify-center mb-6 rounded-lg">
+                <div class="text-blue-500">Mountain</div>
+            </div>
+            <blockquote class="border-l-4 border-teal-400 pl-4 mb-6">
+                <p class="italic text-blue-700">"Liburan jadi menyenangkan bersama Traveles."</p>
+                <footer class="mt-2 flex items-center">
+                    <div class="w-8 h-8 bg-teal-300 rounded-full mr-2"></div>
+                    <div>
+                        <p class="font-semibold text-blue-800">Farah Tiara</p>
+                        <p class="text-sm text-blue-600">Ibu Rumah Tangga, 28</p>
+                    </div>
+                </footer>
+            </blockquote>
+            <h2 class="text-xl font-semibold mb-4 text-blue-800">Keunggulan Dari Traveles</h2>
+            <ul class="space-y-4">
+                <li class="flex items-start">
+                    <span class="w-8 h-8 bg-teal-400 text-white rounded-full flex items-center justify-center mr-4">1</span>
+                    <p><strong class="text-blue-800">Harga Terjangkau</strong> 
+                </li>
+                <li class="flex items-start">
+                    <span class="w-8 h-8 bg-orange-400 text-white rounded-full flex items-center justify-center mr-4">2</span>
+                    <p><strong class="text-blue-800">Proses Cepat</strong>
+                </li>
+                <li class="flex items-start">
+                    <span class="w-8 h-8 bg-pink-400 text-white rounded-full flex items-center justify-center mr-4">3</span>
+                    <p><strong class="text-blue-800">Destinasi Beragam</strong>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Right Side (Contact Form) -->
+        <div class="md:w-1/3 bg-gradient-to-b from-teal-100 to-blue-100 p-6 rounded-lg">
+            <h2 class="text-xl font-semibold mb-4 text-blue-800">Kontak Kami</h2>
+            <p class="text-blue-600 mb-4">Sales akan menghubungi anda 1x24 jam setelah data kami terima..</p>
+            <form id="contactForm">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium mb-1 text-blue-800">Nama Anda:</label>
+                    <input type="text" id="name" placeholder="First and last name" class="w-full p-2 border rounded border-teal-300 focus:ring-teal-500 focus:border-teal-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium mb-1 text-blue-800">Email:</label>
+                    <input type="email" id="email" placeholder="example@email.com" class="w-full p-2 border rounded border-teal-300 focus:ring-teal-500 focus:border-teal-500">
+                </div>
+                <div class="mb-4">
+                    <label for="interest" class="block text-sm font-medium mb-1 text-blue-800">Ingin Liburan Kemana?</label>
+                    <select id="interest" class="w-full p-2 border rounded border-teal-300 focus:ring-teal-500 focus:border-teal-500">
+                        <option>Select option</option>
+                        <option>Dalam Negeri</option>
+                        <option>Luar Negeri</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-teal-600 text-white p-2 rounded hover:bg-teal-700">Kirim</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section class="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="text-center">
+            <div class="w-12 h-12 bg-teal-400 text-white rounded-full mx-auto mb-4 flex items-center justify-center">✈️</div>
+            <h3 class="font-semibold text-blue-800">BALI</h3>
+            <p class="text-blue-600">Matahari terbit di bali adalah moment magis yang tidak dapat di lupakan.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 bg-orange-400 text-white rounded-full mx-auto mb-4 flex items-center justify-center">✈️</div>
+            <h3 class="font-semibold text-blue-800">JAPAN</h3>
+            <p class="text-blue-600">Jika saya harus makan selama sisa hidup saya, japan adalah pilihannya.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 bg-pink-400 text-white rounded-full mx-auto mb-4 flex items-center justify-center">✈️</div>
+            <h3 class="font-semibold text-blue-800">SINGAPORE</h3>
+            <p class="text-blue-600">Saksikan panorama indah dari jembatan ikonik singapore.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 bg-blue-400 text-white rounded-full mx-auto mb-4 flex items-center justify-center">✈️</div>
+            <h3 class="font-semibold text-blue-800">BANDUNG</h3>
+            <p class="text-blue-600">Surga kecil yang tersembunyi di antara gunung - gunung.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 bg-green-400 text-white rounded-full mx-auto mb-4 flex items-center justify-center">✈️</div>
+            <h3 class="font-semibold text-blue-800">SURABAYA</h3>
+            <p class="text-blue-600">Bawa luka mu ke surabaya, biar surabaya yang mengobati.</p>
+        </div>
+        <div class="text-center">
+            <div class="w-12 h-12 bg-purple-400 text-white rounded-full mx-auto mb-4 flex items-center justify-center">✈️</div>
+            <h3 class="font-semibold text-blue-800">Germany</h3>
+            <p class="text-blue-600">Ada lebih cukup ruang di dunia untuk germany.</p>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="text-center p-6 bg-gradient-to-r from-teal-100 to-blue-100">
+        <h2 class="text-2xl font-bold mb-4 text-blue-800">Terima Kasih, Salam Hangat Dari Traveles</h2>
+        <p class="text-blue-600 mb-4">Hidup bergerak sangat cepat. Kalo km tidak berhenti dan melihat lihat sebentar, kamu bisa melewatkannya.</p>
+        <button class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600">HUBUNGI KAMI</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-4 text-center border-t bg-white">
+        <div class="flex justify-center space-x-4 mb-2">
+            <a href="#" class="hover:underline text-teal-600">Terms of Service</a>
+            <a href="#" class="hover:underline text-teal-600">Privacy Policy</a>
+        </div>
+        <p class="text-blue-600">© 2025 Traveles</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const interest = document.getElementById('interest').value;
+            console.log('Form Submitted:', { name, email, interest });
+            alert('Form submitted! Check the console for details.');
+        });
+    </script>
+</body>
+</html>
